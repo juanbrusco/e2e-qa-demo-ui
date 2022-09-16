@@ -1,0 +1,37 @@
+{
+  "name": "e2e-qa-demo-ui",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "",
+  "description": "",
+  "author": "",
+  "license": "",
+  "scripts": {
+    "build": "react-scripts build",
+    "clean": "yarn cache clean && yarn install",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "test": "react-scripts test"
+  },
+  "dependencies": {
+    "@carbon/react": "1.1.0",
+    "axios": "^0.27.2",
+    "enzyme": "3.11.0",
+    "enzyme-adapter-react-16": "1.15.5",
+    "react": "16.10.0",
+    "react-dom": "16.10.0",
+    "react-router-dom": "5.0.0",
+    "react-scripts": "5.0.1",
+    "sass": "1.51.0"
+  },
+  "devDependencies": {},
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
