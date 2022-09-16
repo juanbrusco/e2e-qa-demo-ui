@@ -92,7 +92,9 @@ const LandingPage = () => {
   useEffect(() => {
     getCollections();
     getModels();
-  });
+  },
+    // eslint-disable-next-line
+    []);
 
   return (
     <>

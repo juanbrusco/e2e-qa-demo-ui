@@ -22,7 +22,7 @@ it's just an intermmediary step.
 
 - files: *Dockerfile*, *nginx.conf*, *.dockerignore*      
 - `docker build . -t e2e-qa-demo-ui-image`       
-- `docker run -p 8082:82 -d --name e2e-qa-demoui-container e2e-qa-demo-ui-image`              
+- `docker run -p 8082:82 -d --name e2e-qa-demo-ui-container e2e-qa-demo-ui-image`              
     - **8082** -> public port to access     
     - **82** -> container expose port       
     - **-container** -> container name        
