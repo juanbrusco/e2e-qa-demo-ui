@@ -1,4 +1,4 @@
-# DemoUI to show how PrimeQA works
+# DemoUI to show how Reac web application works
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
